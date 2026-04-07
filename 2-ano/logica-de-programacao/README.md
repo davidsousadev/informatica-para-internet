@@ -1,1 +1,5 @@
-[](https://gamma.app/docs/Logica-de-gxkxk9e5cw80h7j)
+# Aulas de Lógica de Programação
+
+## Materiais
+
+- [Slides](/2-ano/logica-de-programacao/slides.md)
