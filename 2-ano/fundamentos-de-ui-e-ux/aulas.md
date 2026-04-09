@@ -1,4 +1,4 @@
-# Slides de Fundamentos de UI e UX
+# Aulas de Fundamentos de UI e UX
 
 ## Aula 00
 
@@ -10,4 +10,4 @@
 
 #### Links
 
-- [Figma](https://www.figma.com/pt-br/)
+- [Canva](https://www.canva.com/)

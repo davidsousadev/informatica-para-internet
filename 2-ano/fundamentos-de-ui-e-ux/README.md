@@ -2,4 +2,6 @@
 
 ## Materiais
 
-- [Slides](/2-ano/fundamentos-de-ui-e-ux/slides.md)
+## Aulas
+
+- [Aulas](/2-ano/fundamentos-de-ui-e-ux/aulas.md)
