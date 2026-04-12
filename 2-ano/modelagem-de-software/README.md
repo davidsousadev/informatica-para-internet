@@ -10,6 +10,4 @@
 
 - [Slides](/2-ano/modelagem-de-software/slides.md)
 
-
-
 ### Links
