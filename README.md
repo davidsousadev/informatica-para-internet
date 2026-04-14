@@ -5,10 +5,10 @@
 ### 📅 1º Semestre
 | Nº  | Matéria                                             |
 | --- | --------------------------------------------------- |
-| 1   | Arquitetura de Computadores e Sistemas Operacionais |
+| 1   | [Arquitetura de Computadores e Sistemas Operacionais](/2-ano/arquitetura-de-computadores-e-sistemas-operacionais/README.md) |
 | 2   | [Lógica de Programação](/2-ano/logica-de-programacao/README.md)                               |
 | 3   | [Fundamentos de UI e UX](/2-ano/fundamentos-de-ui-e-ux/README.md)                              |
-| 4   | Modelagem de Software                               |
+| 4   | [Modelagem de Software](/2-ano/modelagem-de-software/README.md)                               |
 
 ### 📅 2º Semestre
 | Nº  | Matéria                                       |
@@ -24,8 +24,8 @@
 ### 📅 1º Semestre
 | Nº  | Matéria                                 |
 | --- | --------------------------------------- |
-| 8   | Instalação e Manutenção de Computadores |
-| 9   | Programação para Back-End               |
+| 8   | [Instalação e Manutenção de Computadores](/3-ano/instalacao-e-manutencao-de-computadores/README.md) |
+| 9   | [Programação para Back-End](/3-ano/)               |
 | 10  | Desenvolvimento de APIs                 |
 
 ### 📅 2º Semestre
