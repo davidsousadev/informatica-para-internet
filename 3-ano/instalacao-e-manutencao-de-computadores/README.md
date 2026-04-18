@@ -1,30 +1,15 @@
-# Aulas de Instalação e Manutenção de Computadores
+# Instalação e Manutenção de Computadores
 
-## Aulas
+## Materiais
 
-### Aula 00 - Apresentação de Disciplina
+### Aulas
 
-#### Atividade 00 - Criar Conta Mundi no curso Manutenção de Computadores
-
-- Apresentação de disciplina
-
-### Aula 01 - Principais Partes do Computador
-
-#### Atividade 01 - Principais Partes do Computador
-
-- Atividade no Google Classroom
-
-### Aula 02 - Processador Memórias e Porta USB - Parte 1 e 2
-
-#### Atividade 02 - Processador Memórias e Porta USB - Parte 1 e 2
-
-- Atividade no Google Classroom Revisão
-
-
+- [Aulas](/3-ano/instalacao-e-manutencao-de-computadores/aulas.md)
+  
 ## Material de apoio
 
-- [Apostila Base](https://ifpr.edu.br/pronatec/wp-content/uploads/sites/46/2012/07/mmc1.pdf?authuser=2)
+- [Apostila Base](https://drive.google.com/file/d/1sBNW7IHuj_ct3ugM8yM2sduwrqBhT9mN/view?usp=sharing)
 
-## Links
+## Plano de Ensino
 
 - [Notion](https://www.notion.so/CEMAB-300-Instala-o-e-Manuten-o-de-Computadores-33c6acda1a0e8076a388c30b05e1ac10?source=copy_link)

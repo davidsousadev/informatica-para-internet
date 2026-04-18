@@ -1,10 +1,12 @@
-# Aulas de Lógica de Programação
+# Lógica de Programação
 
-## Materiais
+### Aulas
 
-- [Apostila Base](https://www.seduc.ce.gov.br/wp-content/uploads/sites/37/2012/06/informatica_logica_de_programacao.pdf)
+- [Aulas](/2-ano/logica-de-programacao/aulas.md)
 
-## Slides
+### Plano de Disciplina
+- [Plano de disciplina](https://docs.google.com/document/d/1M9sliTCdvFgRyqarjNXg4di4jvKom5-X7dh567wgi-U/edit?usp=sharing)
 
-- [Slides](/2-ano/logica-de-programacao/slides.md)
+### Apostila Base
 
+- [Apostila Base](https://drive.google.com/file/d/1CONr0qLgXHdOVH82k3JtyDD_Dp1gnLTO/view?usp=sharing)

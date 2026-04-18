@@ -1,14 +1,14 @@
-# Aulas de Desenvolvimento de APIs
+# Desenvolvimento de APIs
 
-## Apostila
+## Materiais
 
-- [Apostila Base](http://ric-cps.eastus2.cloudapp.azure.com/bitstream/123456789/1596/1/20131S_CAMPOSMarcosViniciusSouza_CD1589.pdf?authuser=2)
+### Aulas
 
-## Aulas
+- [Slides](/3-ano/desenvolvimento-de-apis/aulas.md)
 
-- [Lista de Aulas](/3-ano/desenvolvimento-de-apis/aulas.md)
+### Plano de Disciplina
 
+- [Plano de Ensino](https://docs.google.com/document/d/1C6aqcu6WQHEqIrZ97BTrzs-Sf8CctTWfu8yJs7Hqewk/edit?usp=sharing)
 
-## Links
-
-- 
+### Apostila Base
+- [Apostila Base](https://drive.google.com/file/d/1SI7xohS2zIFhFu4xNaAOgmStyF8sYme1/view?usp=sharing)

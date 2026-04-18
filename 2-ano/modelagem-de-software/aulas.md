@@ -1,4 +1,4 @@
-# Slides de Modelagem de Software
+# Aulas de Modelagem de Software
 
 ## Aula 00
 

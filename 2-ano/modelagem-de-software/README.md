@@ -1,13 +1,12 @@
-# Aulas de Modelagem de Software
+# Modelagem de Software
 
-## Materiais
+### Aulas
 
-### Plano de Ensino
+- [Aulas](/2-ano/modelagem-de-software/aulas.md)
 
-- [Plano de Ensino - Notion](https://www.notion.so/Modelagem-de-Software-33c6acda1a0e8019be44def0c62b367a?source=copy_link)
+### Plano de Disciplina
+- [Plano de disciplina](https://docs.google.com/document/d/1B0ieTe9tAgY1b9z6Zji--MJd4_8vf5LTt8nGKLBnER8/edit?usp=sharing)
 
-### Slides
+### Apostila Base
 
-- [Slides](/2-ano/modelagem-de-software/slides.md)
-
-### Links
+- [Apostila Base](https://drive.google.com/file/d/103kP-nD-oMOl3bLuuOyIRrlII9nQCMId/view?usp=sharing)

@@ -26,7 +26,7 @@
 | --- | --------------------------------------- |
 | 8   | [Instalação e Manutenção de Computadores](/3-ano/instalacao-e-manutencao-de-computadores/README.md) |
 | 9   | [Programação para Back-End](/3-ano/)               |
-| 10  | Desenvolvimento de APIs                 |
+| 10  | [Desenvolvimento de APIs](/3-ano/desenvolvimento-de-apis/)                 |
 
 ### 📅 2º Semestre
 | Nº  | Matéria                        |

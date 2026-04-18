@@ -1,4 +1,4 @@
-# Slides de Lógica de Programação
+# Aulas de Lógica de Programação
 
 ## Aula 00
 

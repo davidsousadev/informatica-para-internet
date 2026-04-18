@@ -1,15 +1,15 @@
-# Aulas de Fundamentos de UI e UX
+# Fundamentos de UI e UX
 
 ## Materiais
 
-## Aulas
+### Aulas
 
 - [Aulas](/2-ano/fundamentos-de-ui-e-ux/aulas.md)
 
 ### Plano de Disciplina
-- [Plano Notion](https://www.notion.so/Fundamentos-de-UI-e-UX-33b6acda1a0e8033a7c4f510c8da8b7e?source=copy_link)
+- [Plano de disciplina](https://docs.google.com/document/d/1qEXmVJWJXHbGsN7Pugccj79OKhlrrNvj5C3wHDCkUNA/edit?usp=sharing)
 
 ### Apostila Base
 
-- [Apostila Base Caelum](https://docente.ifsc.edu.br/mello/livros/java/caelum-ux-usabilidade-wd41.pdf)
+- [Apostila Base](https://drive.google.com/file/d/1_WXYRn6-ywkNVxdWjQaz9EI5bS5Ze5Hm/view?usp=sharing)
 
