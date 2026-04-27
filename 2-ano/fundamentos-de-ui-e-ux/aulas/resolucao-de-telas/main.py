@@ -27,7 +27,7 @@ def add_title_slide(title, subtitle=""):
     slide.placeholders[1].text = subtitle
 
 # Slide inicial
-add_title_slide("A Revolução das Telas", "Introdução ao UI/UX Design")
+add_title_slide("Front-end vs. back-end e client-side vs. server-side", "Introdução ao UI/UX")
 
 # Slides
 add_slide("O que é a Internet", [
@@ -78,7 +78,7 @@ add_slide("Feedback", [
 ])
 
 # Salvar
-file_path = "revolucao_das_telas.pptx"
+file_path = "front-endxback-end.pptx"
 prs.save(file_path)
 
 print("Arquivo criado:", file_path)
