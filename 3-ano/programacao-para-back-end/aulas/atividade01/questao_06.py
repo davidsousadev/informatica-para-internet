@@ -2,5 +2,5 @@
 
 '''
 num1 = float(input())
-num1 = (num1 - (num1 / 100) * 10)
-print('%.2f'%num1)
+desconto = (num1 - (num1 / 100) * 10)
+print('%.2f'%desconto)
