@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/jsonify")
 def exemplo_jsonify():
     return jsonify({
-        "mensagem": "Resposta com jsonify",
+        "mensagem": "Resposta com jsonify você",
         "tipo": "flask"
     })
 

@@ -22,11 +22,12 @@ def adicionar_usuario():
 
     usuario = {
         "nome": dados.get("nome"),
-        "idade": dados.get("idade")
+        "idade": dados.get("idade"),
+        "cpf": dados.get("cpf")
     }
 
     usuarios.append(usuario)
-    return jsonify(usuario)
+    return jsonify("Usuário cadastrado!")
 
 # Rota para listar usuários (GET)
 @app.route("/usuarios", methods=["GET"])

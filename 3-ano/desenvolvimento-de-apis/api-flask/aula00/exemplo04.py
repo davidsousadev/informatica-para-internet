@@ -5,6 +5,11 @@ import json
 
 app = Flask(__name__)
 
+@app.route("/usuarios")
+def listar_usuario():
+    return []
+
+
 @app.route("/usuarios", methods=["POST"])
 def criar_usuario():
     dados = request.json
