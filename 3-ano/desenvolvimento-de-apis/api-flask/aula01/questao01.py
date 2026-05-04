@@ -15,6 +15,7 @@ app = Flask(__name__)
 # Lista para armazenar os usuários (dados mockados)
 usuarios = []
 
+
 # Rota para cadastrar usuário (POST)
 @app.route("/usuarios", methods=["POST"])
 def adicionar_usuario():
@@ -23,16 +24,22 @@ def adicionar_usuario():
     usuario = {
         "nome": dados.get("nome"),
         "idade": dados.get("idade"),
-        "cpf": dados.get("cpf")
+        "cpf": dados.get("cpf"),
+        "endereco": dados.get("endereco")
     }
 
     usuarios.append(usuario)
-    return jsonify("Usuário cadastrado!")
+    return jsonify("Usuário cadastrado!"), 201
 
 # Rota para listar usuários (GET)
 @app.route("/usuarios", methods=["GET"])
 def listar_usuarios():
     return jsonify(usuarios)
 
+# @app.route("/", methods=["GET"])
+# def index():
+#     return []
+
+
 # Executar aplicação
-app.run()
+app.run(debug=True)
