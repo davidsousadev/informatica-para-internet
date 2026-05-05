@@ -8,4 +8,4 @@ if nota <= 10 and nota >= 0:
     else:
         print("Reprovado!")
 else:
-    print("Nota invalida!")    
+    print("Nota invalida!")
