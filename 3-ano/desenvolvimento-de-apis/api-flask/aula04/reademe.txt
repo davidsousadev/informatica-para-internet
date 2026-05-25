@@ -1,0 +1,2 @@
+Use dados["chave"] quando o campo for obrigatório e você espera que ele sempre exista.
+Use dados.get("chave") quando o campo for opcional ou quando quiser tratar a ausência dele sem gerar exceção.

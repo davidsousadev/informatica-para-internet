@@ -3,29 +3,35 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 usuarios = [
-    {"id": 1, "nome": "Ana", "idade": 20},
-    {"id": 2, "nome": "Jonas", "idade": 25}
+    {"id": 1, "nome": "David", "idade": 18}
 ]
 
-@app.route("/usuarios", methods=["GET"])
+@app.route("/")
+def index():
+    return []
+
+@app.route("/usuarios")
 def listar_usuarios():
-    return jsonify(usuarios)
+    return jsonify(usuarios), 200
 
-
-@app.route("/usuarios/<int:id>", methods=["PUT"])
-def atualizar_usuario(id):
+@app.route("/usuarios", methods=["POST"])
+def adicionar_usuario():
     dados = request.get_json()
+    usuario = {
+        "id": len(usuarios) + 1,
+        "nome": dados.get("nome"),
+        "idade": dados.get("idade")
+    }
+    usuarios.append(usuario)
+    return jsonify(["Usuário cadastrado com sucesso!"]), 201
 
-    usuarios[id - 1]["nome"] = dados["nome"]
-
-    return jsonify(usuarios[id - 1])
-
-
-@app.route("/usuarios/<int:id>", methods=["DELETE"])
-def deletar_usuario(id):
-    usuarios.pop(id - 1)
-
-    return jsonify({"mensagem": "Usuário removido"})
+app.run(debug=True)
 
 
-app.run()
+
+
+
+
+
+
+
