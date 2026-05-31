@@ -1,0 +1,196 @@
+from pptx import Presentation
+from pptx.util import Inches
+from pptx.enum.text import PP_ALIGN
+from pptx.dml.color import RGBColor
+
+prs = Presentation()
+
+def add_title_slide(title, subtitle):
+    slide_layout = prs.slide_layouts[0]
+    slide = prs.slides.add_slide(slide_layout)
+    slide.shapes.title.text = title
+    slide.placeholders[1].text = subtitle
+
+def add_bullets_slide(title, bullets):
+    slide_layout = prs.slide_layouts[1]
+    slide = prs.slides.add_slide(slide_layout)
+    slide.shapes.title.text = title
+    text_frame = slide.placeholders[1].text_frame
+    text_frame.clear()
+
+    for i, bullet in enumerate(bullets):
+        if i == 0:
+            p = text_frame.paragraphs[0]
+        else:
+            p = text_frame.add_paragraph()
+        p.text = bullet
+        p.level = 0
+
+def add_table_slide(title, headers, rows):
+    slide_layout = prs.slide_layouts[5]
+    slide = prs.slides.add_slide(slide_layout)
+    slide.shapes.title.text = title
+
+    rows_count = len(rows) + 1
+    cols_count = len(headers)
+
+    table = slide.shapes.add_table(
+        rows_count,
+        cols_count,
+        Inches(0.5),
+        Inches(1.5),
+        Inches(9),
+        Inches(3.5)
+    ).table
+
+    for col, header in enumerate(headers):
+        table.cell(0, col).text = header
+
+    for r, row in enumerate(rows, start=1):
+        for c, value in enumerate(row):
+            table.cell(r, c).text = value
+
+# Capa
+add_title_slide(
+    "Arquitetura de Dispositivos Móveis (Android e iOS)",
+    "Capítulo 5 – Dispositivos Móveis"
+)
+
+# Competências
+add_bullets_slide(
+    "Competências da Aula",
+    [
+        "Analisar arquiteturas de dispositivos móveis Android e iOS.",
+        "Compreender o papel dos sensores em smartphones e tablets.",
+        "Identificar diferenças entre Android e iOS.",
+        "Relacionar arquitetura e desempenho dos dispositivos."
+    ]
+)
+
+# Contextualização
+add_bullets_slide(
+    "Contextualizando",
+    [
+        "Os dispositivos móveis transformaram a forma como vivemos.",
+        "Smartphones atuais possuem mais poder de processamento que computadores da missão Apollo.",
+        "Sensores permitem navegação, jogos, saúde digital e realidade aumentada.",
+        "Objetivo: entender arquitetura e sensores dos dispositivos móveis."
+    ]
+)
+
+# Sensores
+add_bullets_slide(
+    "Principais Sensores dos Dispositivos Móveis",
+    [
+        "Acelerômetro: detecta movimento e orientação.",
+        "Giroscópio: detecta rotação e melhora precisão.",
+        "GPS: localização geográfica.",
+        "Sensor de proximidade: desliga a tela durante chamadas.",
+        "Sensor de luz ambiente: ajusta brilho automaticamente."
+    ]
+)
+
+# Arquitetura
+add_bullets_slide(
+    "Arquitetura de Dispositivos Móveis",
+    [
+        "Processadores ARM: equilíbrio entre desempenho e bateria.",
+        "CPU: executa tarefas do sistema e aplicativos.",
+        "GPU: responsável pelos gráficos e jogos.",
+        "Memória RAM: desempenho multitarefa.",
+        "Armazenamento: guarda aplicativos e arquivos."
+    ]
+)
+
+# Android
+add_bullets_slide(
+    "Arquitetura Android",
+    [
+        "Baseado no Kernel Linux.",
+        "Alta flexibilidade e personalização.",
+        "Diversos fabricantes: Samsung, Xiaomi, Motorola etc.",
+        "Processadores variados: Snapdragon, Exynos e MediaTek.",
+        "Fragmentação de versões e hardware."
+    ]
+)
+
+# iOS
+add_bullets_slide(
+    "Arquitetura iOS",
+    [
+        "Baseado no núcleo Darwin (Unix).",
+        "Integração otimizada entre hardware e software.",
+        "Processadores Apple série A.",
+        "Atualizações controladas pela Apple.",
+        "Experiência padronizada e maior estabilidade."
+    ]
+)
+
+# Comparação
+add_table_slide(
+    "Android x iOS",
+    ["Aspecto", "Android", "iOS"],
+    [
+        ["Arquitetura Base", "Kernel Linux", "Darwin (Unix)"],
+        ["Processadores", "Snapdragon / MediaTek", "Apple Série A"],
+        ["Personalização", "Alta", "Restrita"],
+        ["Atualizações", "Dependem do fabricante", "Controladas pela Apple"],
+        ["Compatibilidade", "Muitos dispositivos", "Ecossistema fechado"]
+    ]
+)
+
+# Aplicações
+add_bullets_slide(
+    "Aplicações dos Sensores",
+    [
+        "GPS → aplicativos de mapas e transporte.",
+        "Acelerômetro → contagem de passos e jogos.",
+        "Giroscópio → realidade aumentada.",
+        "Sensor de luz → economia de bateria.",
+        "Sensores biométricos → segurança e autenticação."
+    ]
+)
+
+# Atividade prática
+add_bullets_slide(
+    "Atividade Prática",
+    [
+        "Acesse as configurações do celular e identifique sensores disponíveis.",
+        "Pesquise o processador do seu dispositivo.",
+        "Compare desempenho com outro modelo.",
+        "Instale um aplicativo de pedômetro e observe o uso do GPS e acelerômetro."
+    ]
+)
+
+# Discussão
+add_bullets_slide(
+    "Perguntas para Discussão",
+    [
+        "Como os sensores influenciam nossa rotina?",
+        "Quais diferenças entre Android e iOS mais impactam os usuários?",
+        "Como a evolução dos sensores pode transformar o futuro?",
+        "Quais aplicativos dependem fortemente de sensores?"
+    ]
+)
+
+# Síntese
+add_bullets_slide(
+    "Síntese da Aula",
+    [
+        "Dispositivos móveis combinam hardware eficiente e sensores inteligentes.",
+        "Android oferece flexibilidade; iOS oferece integração otimizada.",
+        "Sensores ampliam funcionalidades e interação com o ambiente.",
+        "Compreender arquitetura é essencial para usuários e desenvolvedores."
+    ]
+)
+
+# Encerramento
+add_title_slide(
+    "Fim da Aula",
+    "Dúvidas e Discussões"
+)
+
+file_path = "Aula 06 Arquitetura_Dispositivos_Moveis_Android_iOS.pptx"
+prs.save(file_path)
+
+print(f"Apresentação salva em: {file_path}")

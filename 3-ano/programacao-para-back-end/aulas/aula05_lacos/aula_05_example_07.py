@@ -1,6 +1,6 @@
 # 7. Exemplo prático: soma com for
 
-numeros = [1, 2, 3, 4, 5]
+numeros = [175, 462, 783, 627, 325]
 soma = 0
 
 for n in numeros:

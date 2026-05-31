@@ -3,8 +3,8 @@ import sqlite3
 
 conn = sqlite3.connect("banco.db")
 cursor = conn.cursor()
-
-cursor.execute("DELETE FROM usuarios WHERE nome = ?", ("Ana",))
+id = int(input("Digite o id para excluir: "))
+cursor.execute(f"DELETE FROM usuarios WHERE id = {id}")
 
 conn.commit()
 conn.close()
