@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <button onclick="enviar()">Clique aqui</button>
+
+    <script>
+        async function enviar() {
+            const resposta = await fetch("http://localhost:8000");
+            const texto = await resposta.text();
+            alert(texto);
+        }
+    </script>
+</body>
+</html>
