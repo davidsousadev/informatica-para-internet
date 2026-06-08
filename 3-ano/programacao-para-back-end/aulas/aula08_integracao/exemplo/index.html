@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 00</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .botao {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="botao">
+        <button onclick="enviar()" id="botao">Click aqui!</button>
+    </div>
+    <script>
+        async function enviar() {
+
+            const resposta = await fetch("http://localhost:7777");
+            const texto = await resposta.text();
+            alert(texto);
+        }
+    </script>
+</body>
+
+</html>
