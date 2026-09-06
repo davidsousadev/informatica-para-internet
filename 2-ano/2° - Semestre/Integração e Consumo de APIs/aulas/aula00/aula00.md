@@ -306,7 +306,7 @@ Mas existe outra possibilidade:
 
 ```text
 ┌──────────────────┐
-│ E-commerce       │
+│    E-commerce    │
 └────────┬─────────┘
          │
          │ Solicita pagamento
@@ -317,7 +317,7 @@ Mas existe outra possibilidade:
          │
          ↓
 ┌──────────────────┐
-│ Sistema Financeiro│
+│Sistema Financeiro│
 └────────┬─────────┘
          │
          ↓
@@ -397,14 +397,16 @@ A ideia é permitir que outros sistemas aproveitem funcionalidades existentes.
 Imagine que um site ofereça:
 
 ```text
+
 ┌─────────────────────────────┐
 │      ENTRAR NO SISTEMA      │
 │                             │
-│  [ E-mail ]                │
-│  [ Senha  ]                │
+│  [ E-mail ]                 │
+│  [ Senha  ]                 │
 │                             │
 │  [ Entrar com Google ]      │
 └─────────────────────────────┘
+
 ```
 
 Ao clicar em:

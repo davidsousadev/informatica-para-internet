@@ -1,0 +1,30 @@
+Hospital - pacientes, médicos, consultas, exames, internações.
+Hotel - hóspedes, quartos, reservas, pagamentos, serviços.
+Biblioteca - livros, autores, usuários, empréstimos, devoluções.
+Cinema - filmes, salas, sessões, ingressos, clientes.
+Campeonato esportivo - times, jogadores, partidas, árbitros, resultados.
+Banco financeiro - clientes, contas, transações, empréstimos.
+Locadora de veículos - clientes, veículos, locações, pagamentos, multas.
+Transporte público - ônibus, linhas, motoristas, paradas, horários.
+Companhia aérea - passageiros, voos, aeronaves, aeroportos, reservas.
+Academia - alunos, planos, professores, treinos, pagamentos.
+Clínica veterinária - animais, donos, veterinários, consultas, vacinas.
+Farmácia - medicamentos, fornecedores, vendas, clientes, estoque.
+Empresa/RH - funcionários, departamentos, cargos, salários, férias.
+Construtora - obras, funcionários, materiais, fornecedores, etapas.
+Universidade - alunos, professores, disciplinas, cursos, matrículas.
+Plataforma musical - artistas, músicas, álbuns, playlists, usuários.
+Rede social - usuários, publicações, comentários, curtidas, seguidores.
+Portal de notícias - jornalistas, matérias, categorias, comentários.
+Pet shop - clientes, animais, serviços, produtos, agendamentos.
+Salão de beleza - clientes, profissionais, serviços, horários, pagamentos.
+Restaurante - mesas, funcionários, pratos, reservas, comandas.
+Agricultura - propriedades, plantações, culturas, colheitas, fornecedores.
+Loja de games - jogos, plataformas, clientes, vendas, desenvolvedores.
+Imobiliária - imóveis, proprietários, corretores, clientes, contratos.
+Escritório de advocacia - clientes, processos, advogados, audiências, documentos.
+Estacionamento - veículos, clientes, vagas, entradas, saídas, pagamentos.
+Eventos - eventos, participantes, ingressos, locais, patrocinadores.
+Agência de empregos - candidatos, vagas, empresas, entrevistas, contratações.
+Transportadora - encomendas, clientes, veículos, motoristas, entregas.
+Oficina mecânica - clientes, veículos, serviços, peças, mecânicos.

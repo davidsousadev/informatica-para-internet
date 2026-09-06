@@ -495,7 +495,7 @@ Imagine que a turma está testando um formulário de login:
 
 ```text
 --------------------------------
-          LOGIN
+             LOGIN
 --------------------------------
 
 E-mail: _______________________
