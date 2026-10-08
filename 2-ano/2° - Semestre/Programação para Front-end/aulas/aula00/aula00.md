@@ -1,8 +1,8 @@
-# LINGUAGEM DE MARCAÇÃO — HTML
+# LINGUAGEM DE MARCAÇÃO - HTML
 
 ## 1. HTML
 
-**HTML — HyperText Markup Language**
+**HTML - HyperText Markup Language**
 
 → Linguagem de **marcação de hipertexto**
 → Utilizada para criação de **documentos web**
@@ -98,11 +98,11 @@ pode ser representado por meio de **TAGS**.
 
 Trabalhava no:
 
-**CERN — Organização Europeia para a Pesquisa Nuclear**
+**CERN - Organização Europeia para a Pesquisa Nuclear**
 
 HTML foi inspirado inicialmente pela:
 
-**SGML — Standard Generalized Markup Language**
+**SGML - Standard Generalized Markup Language**
 
 → Metalinguagem criada pela IBM nos anos 1960
 → Utilizava tags para estruturar elementos
@@ -139,7 +139,7 @@ HTML foi inspirado inicialmente pela:
 
 **1996**
 
-**W3C — World Wide Web Consortium**
+**W3C - World Wide Web Consortium**
 
 → Passa a coordenar o desenvolvimento do HTML
 → Padroniza e organiza suas versões futuras
@@ -168,7 +168,7 @@ HTML foi inspirado inicialmente pela:
 
 Desenvolvimento iniciado em meados dos anos 2000.
 
-### HTML5 — A revolução da Web
+### HTML5 - A revolução da Web
 
 Introduziu avanços importantes:
 
@@ -197,4 +197,3 @@ Introduziu avanços importantes:
 → Que define o **conteúdo e a estrutura da Web moderna**.
 
 ---
-
