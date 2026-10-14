@@ -1,4 +1,41 @@
+from argon2 import PasswordHasher
+ph = PasswordHasher()
+
+#resultado = ph.verify(hash_senha, "123456")
+
+
 usuarios = {}
+
+usuarios["david@email.com"] = {
+    "nome": "David",
+    "senha": "123456"
+}
+
+usuarios["david@email.com"]["senha"] = ph.hash(usuarios["david@email.com"]["senha"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
