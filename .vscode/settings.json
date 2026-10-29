@@ -1,3 +1,8 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:venv"
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "cline.autoApprove.readFiles": true,
+    "cline.autoApprove.writeFiles": true,
+    "cline.autoApprove.executeCommand": true,
+    "cline.autoApprove.browserAction": true,
+    "cline.autoApprove.useMcp": true
 }

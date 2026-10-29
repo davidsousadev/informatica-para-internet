@@ -1,0 +1,33 @@
+*{
+    font-size: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+#reais {
+    border: solid 1px blue;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    
+}
+span{
+    border: solid;
+    float: right;
+    }
+
+#racionais{
+    border: solid 1px;
+    height: 300px;
+    width: 70%;
+}
+
+#irracionais{
+    border: solid 1px;
+    width: 29%;
+    height: 60%;
+    float: right;
+    margin-top: -37%;    
+}
